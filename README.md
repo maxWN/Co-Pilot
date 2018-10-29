@@ -1,4 +1,4 @@
-# web-map
+# Co-Pilot
 
 ## Project setup
 ```
