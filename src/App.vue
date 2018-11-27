@@ -6,16 +6,18 @@
     </div> -->
     <MainNavBar></MainNavBar>
     <router-view/>
+    <footer-bar></footer-bar>
   </div>
 </template>
 
 <script>
-
 import MainNavBar from '@/primary/MainNavBar.vue'
+import FooterBar from '@/primary/FooterBar.vue'
 export default {
   name: 'app',
   components: {
-    MainNavBar
+    MainNavBar,
+    FooterBar
   }
 }
 

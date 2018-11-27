@@ -26,6 +26,7 @@ export default {
       this.initMap();
     })
   },
+  mixins: [],
   methods: {
     initMap () {
       const map = new Map({
